@@ -1,4 +1,43 @@
-Bot Discord utilisant l'API de VirusTotal + API Zenquotes + encourageur avec detetecteurs de mots et ajouteur de mots sur une base de donnees.
-Pour utiliser L'API de VirusTotal, faire $scan en uploadant un fichier, attention, si vous n'avez pas Discord Nitro vous ne pouvez pas envoyer un fichier plus grand que 5Mb.
-Pour avoir une citation, tapez $inspire.
-Pour ajouter des messages encourageants a la base de donnes, utiliser $new suivi d'un espace et du message, les messages s'affichent quand il y a les mots: "triste", "malheureux", etc. dans une phrase.
+# 🤖 Bot Discord : Scan, Citations & Encouragements
+
+Un bot Discord multi-fonction :
+
+- 🔍 Scanne les fichiers avec l’API **VirusTotal**
+- 📖 Génère des citations inspirantes via **ZenQuotes**
+- 💬 Envoie des **messages d'encouragement** en détectant certains mots
+- ➕ Permet aux utilisateurs d’ajouter leurs propres messages positifs
+
+---
+
+## ✨ Fonctions disponibles
+
+### 🔐 `$scan`  
+Envoie un fichier à analyser avec **VirusTotal**.
+
+> ⚠️ Si vous n’avez pas **Discord Nitro**, vous ne pouvez pas envoyer de fichiers de plus de **5 Mo**.
+
+---
+
+### 📖 `$inspire`  
+Génère une **citation inspirante** aléatoire.
+
+---
+
+### 💬 `$new <message>`  
+Ajoute un **nouveau message encourageant** à la base de données du bot.
+
+---
+
+### 💡 Réponses automatiques  
+Le bot détecte des mots comme **“triste”**, **“malheureux”**, **“dépression”**, etc.  
+➡️ Et répond automatiquement avec un message positif.
+
+---
+
+## ⚙️ Configuration
+
+Créez un fichier `.env` à la racine du projet, basé sur `.env.example`, avec les vraies clés :
+
+```env
+TOKEN=votre_clé_discord_ici
+VT_API_KEY=votre_clé_virustotal_ici
