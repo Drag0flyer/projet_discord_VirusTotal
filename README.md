@@ -1,5 +1,8 @@
 # 🤖 Bot Discord : Scan, Citations & Encouragements
 
+![Python](https://img.shields.io/badge/python-3.10+-blue?logo=python&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 Un bot Discord multi-fonction :
 
 - 🔍 Scanne les fichiers avec l’API **VirusTotal**
